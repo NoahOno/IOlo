@@ -1,30 +1,36 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于"
 ---
 
-Welcome to my digital corner. I am a **developer** and **student** passionate about technology, video games, and building things that live on the internet.
+这里是 `DOS{Ono}` 的公开站点。
 
-## Who am I?
+我会在这里整理公开发布的内容，包括：
 
-My name is Andrés, and since I can remember, I have always been curious about understanding how things work — from taking apart toys as a child to taking apart other people's code at 2 AM. I am currently studying engineering while developing projects that challenge me to learn something new every day.
+- 技术笔记
+- 折腾记录
+- Obsidian 与知识管理实践
+- 一些阶段性的项目总结
 
-When I am not programming, I am probably in some virtual world exploring maps, completing missions, or competing online. Video games are not just my hobby, they also taught me how to solve problems, work in a team, and, above all, not to give up after attempt #847.
+## 关于我
 
-## What I do
+我是 `Ono`。这个博客主要用来沉淀可公开的长期内容，而不是即时动态。
 
-- **Web Development** — I love building modern web experiences with technologies like Astro, React, TypeScript, and everything the JavaScript ecosystem has to offer.
-- **Open Source** — I believe in the power of open source. You can find my projects on [GitHub](https://github.com/0xdres/).
-- **Continuous Learning** — I am always exploring new tools, frameworks, and concepts. Technology evolves fast and I like to keep up with the pace.
+我更关心这些事情：
 
-## Gaming
+- 如何把知识、写作和工程实践组织得更稳定
+- 如何让个人站点成为长期可维护的数字资产
+- 如何减少工具噪音，把时间留给真正重要的内容
 
-Video games are part of my DNA. From epic RPGs to competitive shooters, I enjoy practically any genre. It's that space where creativity meets strategy and pure fun.
+## 这个博客会写什么
 
-## This blog
+- 开发中的思考与记录
+- Obsidian 工作流
+- 静态站点、部署、自动化
+- 项目复盘与个人方法论
 
-**Devosfera** was born as a space to document my journey as a developer, share what I learn, and connect with people who share the same passions. Here you will find posts about development, technology, and the occasional random late-night reflection.
+## 联系方式
 
-If you want to connect, don't hesitate to find me on [GitHub](https://github.com/0xdres/), [X](https://x.com/avdyen), or [LinkedIn](https://www.linkedin.com/in/avdyan/). It is always good to meet cool people from the community.
+你可以通过 [GitHub](https://github.com/NoahOno) 找到我。
 
-> _"Code is poetry, but with more semicolons."_ — Me, probably
+后续这里会逐步补完整的个人介绍页。

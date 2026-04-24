@@ -65,7 +65,7 @@ const hasCoverInFolder = coverImage
   : false;
 ---
 
-<Layout title={`${title} | Galleries | ${SITE.title}`} description={description}>
+<Layout title={`${title} | 图集 | ${SITE.title}`} description={description}>
   <Header />
   {SITE.showBackButton && <Breadcrumb withBackButton />}
   <main
@@ -183,13 +183,13 @@ const hasCoverInFolder = coverImage
   <div class="lightbox-layout">
     <div class="lightbox-topbar">
       <span id="lightbox-counter" class="lightbox-counter font-cartograph"></span>
-      <button class="lightbox-btn" id="lightbox-close" aria-label="Close" title="Close (Esc)" type="button">
+      <button class="lightbox-btn" id="lightbox-close" aria-label="关闭" title="关闭 (Esc)" type="button">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
       </button>
     </div>
 
     <div class="lightbox-main">
-      <button class="lightbox-btn lightbox-nav" id="lightbox-prev" aria-label="Previous" title="Previous (Left Arrow)" type="button">
+      <button class="lightbox-btn lightbox-nav" id="lightbox-prev" aria-label="上一张" title="上一张（左方向键）" type="button">
         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
       </button>
       
@@ -198,7 +198,7 @@ const hasCoverInFolder = coverImage
         <p id="lightbox-caption" class="lightbox-caption text-foreground/80"></p>
       </div>
 
-      <button class="lightbox-btn lightbox-nav" id="lightbox-next" aria-label="Next" title="Next (Right Arrow)" type="button">
+      <button class="lightbox-btn lightbox-nav" id="lightbox-next" aria-label="下一张" title="下一张（右方向键）" type="button">
         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
       </button>
     </div>

@@ -23,6 +23,17 @@ const decodeSegment = (value: string) => {
 };
 
 export const formatPathSegmentLabel = (segment: string, locale?: string) => {
+  const dictionary: Record<string, string> = {
+    posts: "文章",
+    tags: "标签",
+    about: "关于",
+    search: "搜索",
+    archives: "归档",
+    galleries: "图集",
+  };
+
+  if (dictionary[segment]) return dictionary[segment];
+
   const readable = decodeSegment(segment)
     .replace(/[-_]+/g, " ")
     .replace(/\s+/g, " ")

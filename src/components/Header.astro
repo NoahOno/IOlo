@@ -29,7 +29,7 @@ const isActive = (path: string) => {
   href="#main-content"
   class="absolute start-16 -top-full z-50 rounded-b-lg bg-accent px-4 py-2 font-medium text-background transition-all focus:top-0"
 >
-  Skip to content
+  跳到正文
 </a>
 
 <header id="main-header" class="sticky top-0 z-40 w-full transition-colors duration-300">
@@ -74,7 +74,7 @@ const isActive = (path: string) => {
           <button
             id="menu-btn"
             class="hamburger-btn sm:hidden"
-            aria-label="Open Menu"
+            aria-label="打开菜单"
             aria-expanded="false"
             aria-controls="mobile-menu"
           >
@@ -91,28 +91,28 @@ const isActive = (path: string) => {
               <a
                 href="/posts"
                 class:list={["nav-link", { "nav-active": isActive("/posts") }]}
-                >Posts</a
+                >文章</a
               >
             </li>
             <li>
               <a
                 href="/tags"
                 class:list={["nav-link", { "nav-active": isActive("/tags") }]}
-                >Tags</a
+                >标签</a
               >
             </li>
             <li>
               <a
                 href="/about"
                 class:list={["nav-link", { "nav-active": isActive("/about") }]}
-                >About</a
+                >关于</a
               >
             </li>
             <li class="flex items-center">
               <a
                 href="/search"
                 class:list={["nav-link", { "nav-active": isActive("/search") }]}
-                title="Go to Search">Search</a
+                title="前往搜索">搜索</a
               >
             </li>
             {
@@ -124,11 +124,11 @@ const isActive = (path: string) => {
                       "nav-link",
                       { "nav-active": isActive("/archives") },
                     ]}
-                    title="Archives"
-                    aria-label="archives"
+                    title="归档"
+                    aria-label="归档"
                   >
                     <IconArchive class="hidden sm:inline-block" />
-                    <span class="sm:sr-only">Archives</span>
+                    <span class="sm:sr-only">归档</span>
                   </LinkButton>
                 </li>
               )
@@ -142,11 +142,11 @@ const isActive = (path: string) => {
                       "nav-link",
                       { "nav-active": isActive("/galleries") },
                     ]}
-                    title="Galleries"
-                    aria-label="galleries"
+                    title="图集"
+                    aria-label="图集"
                   >
                     <IconGallery class="hidden sm:inline-block" />
-                    <span class="sm:sr-only">Galleries</span>
+                    <span class="sm:sr-only">图集</span>
                   </LinkButton>
                 </li>
               )
@@ -161,8 +161,8 @@ const isActive = (path: string) => {
               <button
                 data-search-trigger
                 class="nav-search-btn"
-                title="Search (⌘K)"
-                aria-label="Open search"
+                title="搜索 (⌘K)"
+                aria-label="打开搜索"
                 aria-keyshortcuts="Meta+K"
               >
                 <IconSearch class="size-4.5" />
@@ -175,7 +175,7 @@ const isActive = (path: string) => {
                   <button
                     id="theme-btn"
                     class="nav-icon-btn relative"
-                    title="Toggles light & dark"
+                    title="切换明暗主题"
                     aria-label="auto"
                     aria-live="polite"
                   >
@@ -509,7 +509,7 @@ const isActive = (path: string) => {
     
     const closeMenu = () => {
       menuBtn.setAttribute("aria-expanded", "false");
-      menuBtn.setAttribute("aria-label", "Open Menu");
+      menuBtn.setAttribute("aria-label", "打开菜单");
       mobileMenu.classList.remove("is-open");
       mobileMenu.setAttribute("aria-hidden", "true");
     };
@@ -523,7 +523,7 @@ const isActive = (path: string) => {
           closeMenu();
         } else {
           menuBtn.setAttribute("aria-expanded", "true");
-          menuBtn.setAttribute("aria-label", "Close Menu");
+          menuBtn.setAttribute("aria-label", "关闭菜单");
           mobileMenu.classList.add("is-open");
           mobileMenu.setAttribute("aria-hidden", "false");
         }
