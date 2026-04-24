@@ -90,8 +90,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !("featured" in data && dat
         <p
           class="mt-7 max-w-xl text-base leading-relaxed opacity-75 sm:text-lg"
         >
-          一个持续构建的数字空间，记录代码、写作、知识管理和对技术世界的长期观察。
+          {SITE.desc}
         </p>
+
         <div class="mt-8 flex flex-col sm:flex-row sm:items-center gap-4">
           <p class="text-sm opacity-50 flex-shrink-0">
             作者
