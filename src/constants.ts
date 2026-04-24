@@ -24,7 +24,7 @@ export const SOCIALS: Social[] = [
   },
   {
     name: "Mail",
-    href: "mailto:noahono@outlook.com",
+    href: "mailto:noahchou21@gmail.com",
     linkTitle: `给 ${SITE.title} 发送邮件`,
     icon: IconMail,
   },

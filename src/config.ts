@@ -1,9 +1,9 @@
 export const SITE = {
-  website: "https://dos-ono.pages.dev/",
-  author: "Ono",
+  website: "https://blog.onov2.qzz.io",
+  author: "Noah",
   profile: "https://github.com/NoahOno",
-  desc: "DOS{Ono} 的数字空间，记录代码、折腾、知识整理与持续写作。",
-  title: "DOS{Ono}",
+  desc: "欢迎来到 Noah 的个人小站，在这里我会写一些关于编程、设计等所有让我感兴趣的话题的内容。",
+  title: "DOS{NoahOno}",
   ogImage: "devosfera-og.webp", // located in the public folder
   lightAndDarkMode: true,
   postPerIndex: 6,
@@ -14,8 +14,8 @@ export const SITE = {
   showGalleriesInIndex: false, // Show galleries in the general paginated list (only if showGalleries is true)
   showBackButton: true, // show back button in post detail
   heroTerminalPrompt: {
-    prefix: "DOS", // highlighted part on the left
-    path: "/Ono", // central prompt text
+    prefix: "~", // highlighted part on the left
+    path: "/.", // central prompt text
     suffix: "$", // terminal symbol on the right
   },
   backdropEffects: {
